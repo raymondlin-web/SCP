@@ -1,0 +1,24 @@
+/*
+font-family: 'Keania One', cursive;
+font-family: 'Expletus Sans', cursive;
+font-family: 'Bungee', cursive;
+font-family: 'Baloo Da', cursive;
+*/
+body {
+  background-color: #0e1010;
+}
+.logo {
+  margin: auto;
+  width: 80%;
+  border: 3px #0e1010;
+  padding: 110px;
+  text-align: center;
+  position: relative;
+}
+.Pause {
+  position: absolute;
+  width: auto;
+}
+.Pause:hover {
+  opacity: 0;
+}

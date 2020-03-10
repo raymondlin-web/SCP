@@ -1,0 +1,14 @@
+/*
+font-family: 'Expletus Sans', cursive;
+font-family: 'Bungee', cursive;
+font-family: 'Baloo Da', cursive;
+*/
+body {
+  background-color: black;
+}
+.stop {
+    position: absolute;
+}
+.stop:hover {
+  opacity: 0;
+}
