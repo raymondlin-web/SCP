@@ -6,9 +6,57 @@ font-family: 'Baloo Da', cursive;
 body {
   background-color: black;
 }
-.stop {
-    position: absolute;
+a:link {
+  color: Blue;
+  background-color: transparent;
+  text-decoration: none;
 }
-.stop:hover {
-  opacity: 0;
+a:visited {
+  color: Red;
+  background-color: transparent;
+}
+.move {
+  margin: 0;
+  position: relative;
+}
+.title {
+  font-size: 50px;
+  color: white;
+  font-family: 'Bungee', cursive;
+  border: 2px white;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.meaning {
+  font-size: 20px;
+  font-family: 'Expletus Sans', cursive;
+}
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+table, tr, td {
+  border: 1px dotted white;
+}
+th {
+  font-family: 'Expletus Sans', cursive;
+  color: white;
+}
+.profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.set {
+  display: flex;
+  flex-direction: column;
+  max-height: 60%;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Expletus Sans', cursive;
+  color: white;
+  justify-content: space-between;
 }

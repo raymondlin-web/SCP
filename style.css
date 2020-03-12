@@ -16,6 +16,7 @@ body {
   position: relative;
 }
 .Pause {
+  background-color: #0e1010;
   position: absolute;
   width: auto;
 }
