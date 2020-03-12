@@ -27,6 +27,12 @@ a:visited {
   white-space: nowrap;
   overflow: hidden;
 }
+.Foundation {
+  font-size: 35px;
+  color: white;
+  font-family: 'Bungee', cursive;
+  border: 2px white;
+}
 .meaning {
   font-size: 20px;
   font-family: 'Expletus Sans', cursive;
@@ -43,20 +49,12 @@ th {
   font-family: 'Expletus Sans', cursive;
   color: white;
 }
-.profile {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
 .set {
-  display: flex;
-  flex-direction: column;
-  max-height: 60%;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 20% 20% 20% 20% 20% 20%;
 }
 .description {
-  display: flex;
-  flex-direction: column;
   font-family: 'Expletus Sans', cursive;
   color: white;
-  justify-content: space-between;
 }
