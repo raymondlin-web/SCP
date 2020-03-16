@@ -9,17 +9,13 @@ body {
 }
 .logo {
   margin: auto;
-  width: 80%;
   border: 3px #0e1010;
-  padding: 110px;
+  padding: 25px;
   text-align: center;
   position: relative;
 }
-.Pause {
-  background-color: #0e1010;
-  position: absolute;
-  width: auto;
-}
-.Pause:hover {
-  opacity: 0;
+p {
+  font-family: 'Expletus Sans', cursive;
+  position: relative;
+  text-align: center;
 }
