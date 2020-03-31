@@ -19,6 +19,16 @@ a:visited {
   margin: 0;
   position: relative;
 }
+@media screen and (max-width:1000px){
+  .move {
+    margin: 0;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+}
 .title {
   font-size: 50px;
   color: white;
@@ -27,11 +37,33 @@ a:visited {
   white-space: nowrap;
   overflow: hidden;
 }
+@media screen and (max-width:1000px){
+  .title {
+    font-size: 20px;
+    color: white;
+    font-family: 'Bungee', cursive;
+    border: 2px white;
+    white-space: wrap;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 .Foundation {
   font-size: 35px;
   color: white;
   font-family: 'Bungee', cursive;
   border: 2px white;
+}
+@media screen and (max-width:1000px){
+  .Foundation {
+    font-size: 15px;
+    color: white;
+    font-family: 'Bungee', cursive;
+    border: 2px white;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 .meaning {
   font-size: 20px;
@@ -44,15 +76,36 @@ a:visited {
 }
 table, tr, td {
   border: 1px dotted white;
+  width: 35%;
 }
 th {
   font-family: 'Expletus Sans', cursive;
   color: white;
 }
+@media screen and (max-width:1000px){
+  table, tr, td {
+    border: 1px dotted white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-spacing: 10px;
+  }
+  th {
+    font-family: 'Expletus Sans', cursive;
+    color: white;
+  }
+}
 .set {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 20% 20% 20% 20% 20% 20%;
+}
+@media screen and (max-width: 200px) {
+  .set {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 20% 20% 20% 20% 20% 20%;
+  }
 }
 .description {
   font-family: 'Expletus Sans', cursive;
